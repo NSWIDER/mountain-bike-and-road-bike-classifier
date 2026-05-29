@@ -39,7 +39,7 @@ classifier.add(Dense(units = 1, activation = 'sigmoid'))
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 # Part 2 - Fitting the CNN to the images
 
-from keras.preprocessing.image import ImageDataGenerator
+from keras.src.legacy.preprocessing.image import ImageDataGenerator
 train_datagen = ImageDataGenerator(rescale = 1./255,
                                    shear_range = 0.2,
                                    zoom_range = 0.2,
@@ -56,12 +56,13 @@ training_set = train_datagen.flow_from_directory(r'./images/trainset',
 
 from keras.callbacks import TensorBoard
 
-tensorboard = TensorBoard(log_dir='C:\\Users\\vikhy\\desktop\\logs', histogram_freq=0,
+tensorboard = TensorBoard(log_dir='./logs', histogram_freq=0,
                           write_graph=True, write_images=False)
 
-history=classifier.fit_generator(training_set,
+history=classifier.fit(training_set,
                          steps_per_epoch = 5,
                          epochs = 10,
                          #validation_data = test_set,
                          validation_steps = 20,
                          callbacks=[tensorboard])
+classifier.save("bike_classifier.keras")
