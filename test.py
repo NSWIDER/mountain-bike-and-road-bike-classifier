@@ -14,7 +14,7 @@ from tensorflow.keras.models import load_model
  
 classifier = load_model("bike_classifier.keras")
 import tensorflow as tf
-writer = tf.summary.create_file_writer("./logs")
+writer = tf.summary.create_file_writer("./logs_test")
 #Appending the test set directory and file names to load later
 from os import listdir
 from os.path import isfile, join

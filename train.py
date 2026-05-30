@@ -56,7 +56,7 @@ training_set = train_datagen.flow_from_directory(r'./images/trainset',
 
 from keras.callbacks import TensorBoard
 
-tensorboard = TensorBoard(log_dir='./logs', histogram_freq=0,
+tensorboard = TensorBoard(log_dir='./logs_train', histogram_freq=0,
                           write_graph=True, write_images=False)
 
 history=classifier.fit(training_set,
@@ -66,3 +66,4 @@ history=classifier.fit(training_set,
                          validation_steps = 20,
                          callbacks=[tensorboard])
 classifier.save("bike_classifier.keras")
+
