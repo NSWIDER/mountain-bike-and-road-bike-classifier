@@ -66,4 +66,5 @@ history=classifier.fit(training_set,
                          validation_steps = 20,
                          callbacks=[tensorboard])
 classifier.save("bike_classifier.keras")
+#exit the script with a success code
 sys.exit(0)

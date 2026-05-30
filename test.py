@@ -67,5 +67,5 @@ for i in range(0, len(onlyfiles)):
     # 3. Log using TensorFlow's native API
     with writer.as_default():
         tf.summary.image(result[i]+onlyfiles[i], image, step=0) # ✅ Works for TensorFlow
- 
+#exit the script with a success code
 sys.exit(0)
