@@ -5,7 +5,7 @@ Edited on Wed Jun 12 21:00:00 2024
 @author: vikhy
 @author: nswider
 """
-
+import sys
 # Part 3 - Making new predictions
 import numpy as np
 from keras.preprocessing import image
@@ -68,3 +68,4 @@ for i in range(0, len(onlyfiles)):
     with writer.as_default():
         tf.summary.image(result[i]+onlyfiles[i], image, step=0) # ✅ Works for TensorFlow
  
+sys.exit(0)

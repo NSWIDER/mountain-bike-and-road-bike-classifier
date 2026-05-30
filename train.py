@@ -7,7 +7,7 @@
 # pip install --upgrade keras
 
 # Part 1 - Building the CNN
-
+import sys
 # Importing the Keras libraries and packages
 from keras.models import Sequential
 from keras.layers import Conv2D
@@ -66,4 +66,4 @@ history=classifier.fit(training_set,
                          validation_steps = 20,
                          callbacks=[tensorboard])
 classifier.save("bike_classifier.keras")
-
+sys.exit(0)

@@ -1,4 +1,7 @@
 .venv/
 venv/
 env/
-logs
+logs_test/
+logs_train/
+logs/
+golden_tests/
