@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "m1.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.32424,
+    "ground_truth": "mountain"
+  },
+  {
+    "filename": "m2.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.357661,
+    "ground_truth": "mountain"
+  },
+  {
+    "filename": "m3.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.413262,
+    "ground_truth": "mountain"
+  },
+  {
+    "filename": "m4.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.313944,
+    "ground_truth": "mountain"
+  },
+  {
+    "filename": "m5.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.442163,
+    "ground_truth": "mountain"
+  },
+  {
+    "filename": "r1.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.438994,
+    "ground_truth": "road"
+  },
+  {
+    "filename": "r2.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.388981,
+    "ground_truth": "road"
+  },
+  {
+    "filename": "r3.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.476643,
+    "ground_truth": "road"
+  },
+  {
+    "filename": "r4.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.370898,
+    "ground_truth": "road"
+  },
+  {
+    "filename": "r5.jpg",
+    "predicted_class": "mountain",
+    "confidence_score": 0.47896,
+    "ground_truth": "road"
+  }
+]

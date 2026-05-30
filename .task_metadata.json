@@ -1,0 +1,6 @@
+{
+  "repo": "NSWIDER/mountain-bike-and-road-bike-classifier",
+  "base_commit": "17020dd2ccb2a75a99a51e39fe3a0385bba9bd42",
+  "github_url": "https://github.com/NSWIDER/mountain-bike-and-road-bike-classifier.git",
+  "docker_repo_url": "https://github.com/NSWIDER/mountain-bike-and-road-bike-classifier.git"
+}
